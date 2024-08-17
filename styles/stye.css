@@ -4,7 +4,7 @@
  
  .rich{
     background-color: antiquewhite;
-    width:90%;
+    width:100%px;
     height: 100%;
     justify-content: center;
     margin: 0 auto;
@@ -16,6 +16,22 @@
  }
 
 
+.picture{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.box-pic  img{
+   width:800px;
+   height:600Px;
+   margin-top:1px;
+   border-radius:10px;
+}
+#box-3 img {
+    height: 1500px;
+}
 
 
 
@@ -28,8 +44,26 @@
 
 
 
+ @media screen  and (max-width:576px) {
+    body{
+        width:338px;  
+    }
+    .rich{
+        background-color: antiquewhite;
+        width: 300px;
+        height: 100%;
+    }
 
-
- @media screen and {
+ .box-pic{
+    width: 315px;
+    height: 100%;
+}
+    .box-pic img{
+        width:313px;
+        height:272px;   
+    }
+    #box-3 img {
+        height:400px;
+    }
     
  }
