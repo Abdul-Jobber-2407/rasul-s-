@@ -2,6 +2,10 @@
     background-color:rgb(7, 36, 7)
  }
  
+ .dewanbag-sharif{
+    color: brown;
+    align-items: center;
+ }
  .rich{
     background-color: antiquewhite;
     width:100%px;
@@ -30,7 +34,7 @@
    border-radius:20px;
 }
 #box-3 img {
-    height: 1500px;
+    height: 1100px;
     border-radius: 20px;
 }
 .text{
@@ -104,15 +108,17 @@
     #box-3 img {
         height:400px;
     }
-    .bani{
-        display: grid;
-        grid-template-rows: repeat(2, 1fr);
-        margin-top: 1px;
-    }
-    .bani-mubarak{
 
+    /* bani */
+    .bani{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+        margin-top: 1px;
+        margin: 0 auto;
     }
-        
+ 
     .video-bani{
         width:290px;
     }
