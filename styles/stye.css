@@ -117,6 +117,7 @@
        align-items: center;
         margin-top: 1px;
         margin: 0 auto;
+        margin-left:px;
     }
  
     .video-bani{
@@ -125,13 +126,14 @@
 
     .text{
         color: brown;
-        border: 3px solid red;
+        border: 3px solid rgb(65, 15, 15);
         text-align: center;
         background-color:antiquewhite;
         border-radius: 8px;
         margin-left: 35px;
+   
     }
-
+ 
     /* birth and death */
 
     .deth-birth{
